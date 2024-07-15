@@ -10,7 +10,7 @@
                         @foreach ( $navbarLinks as $link )
                         <li class="nav-item me-3">
                             <a class="nav-link active" aria-current="page" href="#">
-                                {{ $link["title"] }}
+                                {{ strtoupper($link["title"]) }}
                             </a>
                         </li>
                         @endforeach

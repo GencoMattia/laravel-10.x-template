@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <section class="logo">
-                <img src="../assets/img/dc-logo.png" alt="header-logo">
+                <img src="Vite::asset('resources/img/logo.png')" alt="header-logo">
             </section>
             <nav class="navbar">
                 <ul>

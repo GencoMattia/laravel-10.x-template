@@ -1,3 +1,5 @@
+const path = require('path');
+
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
 
@@ -14,7 +16,8 @@ export default defineConfig({
 
     resolve: {
         alias: {
-                '~resources' : '/resources/'
+                '~resources' : '/resources/',
+                '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap')
         }
     }
 });

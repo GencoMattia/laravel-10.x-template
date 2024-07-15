@@ -1,8 +1,126 @@
 @import "~bootstrap/scss/bootstrap";
 
+body {
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
 header {
     li {
         margin-right: 1rem;
         font-weight: bold;
+    }
+}
+
+a:hover {
+    color: white !important;
+}
+
+footer {
+    background-image: url(../img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+
+        .logo-links {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            height: 20rem;
+            color: #959595;
+
+            .site-links {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                padding: 1rem 0;
+
+                h2 {
+                    color: white;
+                    text-transform: uppercase;
+                    margin-bottom: .5rem;
+                    font-size: 1.2rem;
+                }
+
+                li {
+                    margin-bottom: .2rem;
+                    font-size: .8rem;
+
+                    a {
+                        text-decoration: none;
+                        color: #959595;
+                    }
+                }
+            }
+
+            .footer-logo {
+                display: flex;
+                justify-content: end;
+                align-items: center;
+
+                img {
+                    height: 130%;
+                }
+            }
+        }
+
+        .footer-logo {
+            width: 50%;
+            overflow: hidden;
+        }
+    }
+
+    .footer-socials {
+        width: 100%;
+        background-color: #303030;
+
+        .container {
+            height: 4rem;
+
+            .social-links {
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                button {
+                    background-color: transparent;
+                    border: #0088ff solid 2px;
+                    color: white;
+                    text-transform: uppercase;
+                    padding: .5rem 1rem;
+
+                    &:hover {
+                        background-color: rgba($color: #ffffff, $alpha: .1);
+                    }
+                }
+
+                .socials-list {
+                    display: flex;
+                    align-items: center;
+                    gap: 1.5rem;
+                    color: #959595;
+
+                    h2 {
+                        color: #0088ff;
+                        text-transform: uppercase;
+                    }
+
+                    ul {
+                        display: flex;
+                        gap: 1rem;
+                    }
+                }
+            }
+        }
     }
 }

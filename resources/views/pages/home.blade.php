@@ -17,12 +17,14 @@
                 <ul class="article-list">
                     @foreach ( $data as $comic )
                     <li>
-                        <article class="comics-item">
-                            <img src="{{ $comic["thumb"] }}" alt=" {{ $comic["series"] . "-img" }} ">
-                            <p>
-                                {{ $comic["series"] }}
-                            </p>
-                        </article>
+                        <a href="#">
+                            <article class="comics-item">
+                                <img src="{{ $comic["thumb"] }}" alt=" {{ $comic["series"] . "-img" }} ">
+                                <p>
+                                    {{ $comic["series"] }}
+                                </p>
+                            </article>
+                        </a>
                     </li>
                     @endforeach
                 </ul>

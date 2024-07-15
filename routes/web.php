@@ -67,5 +67,5 @@ Route::get('/', function () {
         ],
     ];
 
-    return view('pages.home', compact($navbarLinks));
+    return view('pages.home', compact("navbarLinks"));
 });

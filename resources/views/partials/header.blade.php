@@ -6,9 +6,9 @@
             </section>
             <nav class="navbar">
                 <ul>
-                    @foreach ( as )
+                    @foreach ( $navbarLinks as $link )
                     <li>
-
+                        {{ $link["title"] }}
                     </li>
                     @endforeach
                 </ul>

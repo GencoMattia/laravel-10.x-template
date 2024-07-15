@@ -61,7 +61,7 @@
                     </div>
                 </nav>
                 <div class="footer-logo">
-                    <img src="../assets/img/dc-logo-bg.png" alt="footer-logo">
+                    <img src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt="footer-logo">
                 </div>
             </section>
             <section class="footer-socials">

@@ -67,7 +67,7 @@ Route::get('/', function () {
         ],
     ];
 
-    $DcComicsList = [
+    $dcComicsList = [
         [
             "id" => 1,
             "title" => "Characters",
@@ -105,7 +105,7 @@ Route::get('/', function () {
         ],
     ];
 
-    $ShopList = [
+    $shopList = [
         [
             "id" => 1,
             "title" => "Shop DC",
@@ -118,7 +118,7 @@ Route::get('/', function () {
         ],
     ];
 
-    $DcList = [
+    $dcList = [
         [
             "id" => 1,
             "title" => "Terms Of Use",
@@ -176,7 +176,7 @@ Route::get('/', function () {
         ],
     ];
 
-    $SiteList = [
+    $siteList = [
         [
             "id" => 1,
             "title" => "DC",
@@ -204,7 +204,7 @@ Route::get('/', function () {
         ],
     ];
 
-    $SocialList = [
+    $socialList = [
         [
             "id" => 1,
             "name" => "Facebook",
